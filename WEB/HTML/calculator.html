@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="../CSS/calculator.css">
+    </head>
+    <body>
+        <div class="calculator"> 
+            <input type="text" id="display" disabled>
+            <div class="buttons">
+                <button onclick="clearDisplay()">AC</button>
+                <button onclick="lastCharacter()">DE</button>
+                <button onclick="appear('%')">%</button>
+                <button onclick="appear('÷')">÷</button>
+                <button onclick="appear('7')"> 7</button>
+                <button onclick="appear('8')"> 8</button>
+                <button onclick="appear('9')"> 9</button>
+                <button onclick="appear('*')"> *</button>
+                <button onclick="appear('4')"> 4</button>
+                <button onclick="appear('5')"> 5</button>
+                <button onclick="appear('6')"> 6</button>
+                <button onclick="appear('-')"> -</button>
+                <button onclick="appear('1')"> 1</button>
+                <button onclick="appear('2')"> 2</button>
+                <button onclick="appear('3')"> 3</button>
+                <button onclick="appear('+')"> +</button>
+                <button onclick="appear('00')">00</button>
+                <button onclick="appear('0')"> 0</button>
+                <button onclick="appear('.')">.</button>
+                <button id="equal" onclick="result()">=</button>
+            </div>
+        </div>
+        <script src="../JavaScript/calculator.js"></script>
+    </body>
+</html>
