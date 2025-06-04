@@ -33,14 +33,14 @@ function App() {
 
   const backgroundImages = [
     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1920",
-     "image/img7.jpeg",
+     "public/Image/img7.jpeg",
     "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&q=80&w=1920",
-     "image/black.png",
+     "public/Image/black.png",
     "https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=1920",
-    "image/wh.png",
+    "public/Image/wh.png",
    "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&q=80&w=1920",
     // "image/img2.jpeg",
-    "image/b.png",
+    "public/Image/b.png",
     // "image/img8.jpeg",
  
   ];    
@@ -48,9 +48,9 @@ function App() {
   {
     sectionTitle: "Project Collection",
     images: [
-      { url: "image/iot_attendance_connections.png" },
-      { url: "image/attendancepic.jpg" },
-      { url: "image/SmartHAS.webp" },
+      { url: "public/Image/iot_attendance_connections.png" },
+      { url: "public/Image/attendancepic.jpg" },
+      { url: "public/Image/SmartHAS.webp" },
       // { url: "image/proj2.jpg" }
     ]
   },
@@ -58,19 +58,19 @@ function App() {
   {
     sectionTitle: "Team Collaboration and Group Work",
     images: [
-      { url: "image/G2.jpg" },
-      { url: "image/digitalsathigc.jpg" },
-      { url: "image/collagegc.jpg" },
-      { url: "image/nfdinGc.jpg" },
-      { url: "image/adsCo.jpg" }
+      { url: "public/Image/G2.jpg" },
+      { url: "public/Image/digitalsathigc.jpg" },
+      { url: "public/Image/collagegc.jpg" },
+      { url: "public/Image/nfdinGc.jpg" },
+      { url: "public/Image/adsCo.jpg" }
     ]
   },
 
   {
     sectionTitle: "My Pictures",
     images: [
-      { url: "image/my3.jpg" },
-      { url: "image/my2.jpg" },
+      { url: "public/Image/my3.jpg" },
+      { url: "public/Image/my2.jpg" },
       // { url: "image/my.jpg" },
       // { url: "image/my4.jpg" },
       // { url: "image/my5.jpg" }
@@ -107,49 +107,50 @@ function App() {
     {
       title: "Project One: Calculator Project",
       description: "Calculator project is my first projet. In this project, I use HTML, CSS, JavaScript. HTML defines different tags and looks. CSS is used for adding colors and style to these HTML elements and tags. JavaScript is used to perform the logic of the calculator.",
-      image: "../WEB/IMAGE/calculator.png",
-      link: "../WEB/HTML/calculator.html"
+      image: "../public/Image/calculator.png",
+      link: "../src/WEB/HTML/calculator.html"
     },
 
     {
       title: "Project Two: Digital Clock",
       description: "Digital clock is my second project. In this project, I use HTML, CSS, JavaScript. The digital clock displays the current time in hours, minutes, and seconds. It updates every second to show the real-time clock.",
-      image: "../WEB/IMAGE/dc.png",
-      link: "../WEB/HTML/digitalclock.html"
+      image: "../public/Image/dc.png",
+      link: "../src/WEB/HTML/digitalclock.html"
     },
 
     {
       title: "Project Three: Color Game ",
       description: "The color game is a fun and interactive web application. In this project, I use HTML, CSS. The game presents a color and asks the user to identify it by clicking on the correct color box.",
-      image: "../WEB/IMAGE/color.png",
-      link: "../WEB/HTML/colorgame.html"
+      image: "../public/Image/color.png",
+      link: "../src/WEB/HTML/colorgame.html"
     },
 
      {
       title: "Project Four: Typing Speed Test",
       description: "Typing Speed Test is a web application that measures how fast you can type. In this project, I use HTML, CSS, JavaScript. The application displays a random text, and the user has to type it as quickly as possible. It calculates the typing speed in words per minute (WPM) and provides feedback on accuracy.",
-      image: "../WEB/IMAGE/typParagraph.png",
-      link: "../WEB/HTML/typinggame.html"
+      image: "../public/Image/typParagraph.png",
+      link: "../src/WEB/HTML/typinggame.html"
     },
 
     {
       title: "Project Five: Quiz Game",
       description: " Quiz game is a fun and interactive web application. In this project, I use HTML, CSS, JavaScript. The game presents a series of questions and multiple-choice answers. The user selects the correct answer, and the application keeps track of the score.",
-      image: "../WEB/IMAGE/quiz.png",
-      link: "../WEB/HTML/quizgame.html"
+      image: "../public/Image/quiz.png",
+      link: "../src/WEB/HTML/quizgame.html"
     },
 
     {
       title: "Project Six: OTP Verification",
       description: "OTP Verification is a security feature used to verify user identity. In this project, I use HTML, CSS, JavaScript. The application generates a one-time password (OTP) and verify the code.",
-      image: "../WEB/IMAGE/otppicture.png",
-      link: "../WEB/HTML/otp.html"
+      image: "../public/Image/otppicture.png",
+      link: "../src/WEB/HTML/otp.html"
     },
   ];
 
   const constraintsRef = useRef(null);
   const x = useMotionValue(0);
-  const xInput = [-100, 0, 100];
+  const xInput = [-100, 0, 100]
+  
   const opacityOutput = [0, 1, 0];
   const opacity = useTransform(x, xInput, opacityOutput);
 
@@ -305,7 +306,7 @@ function App() {
         >
       
             <img 
-                src="../image/my.jpg" 
+                src="../public/Image/meee.jpg" 
                 alt="Dipisha Dumre" 
                 className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full shadow-lg"
             /> 
