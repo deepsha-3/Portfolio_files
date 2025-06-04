@@ -107,43 +107,43 @@ function App() {
     {
       title: "Project One: Calculator Project",
       description: "Calculator project is my first projet. In this project, I use HTML, CSS, JavaScript. HTML defines different tags and looks. CSS is used for adding colors and style to these HTML elements and tags. JavaScript is used to perform the logic of the calculator.",
-      image: "../public/Image/calculator.png",
-      link: "../src/WEB/HTML/calculator.html"
+      image: "/public/Image/calculator.png",
+      link: "/public/WEB/HTML/calculator.html"
     },
 
     {
       title: "Project Two: Digital Clock",
       description: "Digital clock is my second project. In this project, I use HTML, CSS, JavaScript. The digital clock displays the current time in hours, minutes, and seconds. It updates every second to show the real-time clock.",
-      image: "../public/Image/dc.png",
-      link: "../src/WEB/HTML/digitalclock.html"
+      image: "/public/Image/dc.png",
+      link: "/public/WEB/HTML/digitalclock.html"
     },
 
     {
       title: "Project Three: Color Game ",
       description: "The color game is a fun and interactive web application. In this project, I use HTML, CSS. The game presents a color and asks the user to identify it by clicking on the correct color box.",
-      image: "../public/Image/color.png",
-      link: "../src/WEB/HTML/colorgame.html"
+      image: "/public/Image/color.png",
+      link: "/public/WEB/HTML/colorgame.html"
     },
 
      {
       title: "Project Four: Typing Speed Test",
       description: "Typing Speed Test is a web application that measures how fast you can type. In this project, I use HTML, CSS, JavaScript. The application displays a random text, and the user has to type it as quickly as possible. It calculates the typing speed in words per minute (WPM) and provides feedback on accuracy.",
-      image: "../public/Image/typParagraph.png",
-      link: "../src/WEB/HTML/typinggame.html"
+      image: "/public/Image/typParagraph.png",
+      link: "/public/WEB/HTML/typinggame.html"
     },
 
     {
       title: "Project Five: Quiz Game",
       description: " Quiz game is a fun and interactive web application. In this project, I use HTML, CSS, JavaScript. The game presents a series of questions and multiple-choice answers. The user selects the correct answer, and the application keeps track of the score.",
-      image: "../public/Image/quiz.png",
-      link: "../src/WEB/HTML/quizgame.html"
+      image: "/public/Image/quiz.png",
+      link: "/public/WEB/HTML/quizgame.html"
     },
 
     {
       title: "Project Six: OTP Verification",
       description: "OTP Verification is a security feature used to verify user identity. In this project, I use HTML, CSS, JavaScript. The application generates a one-time password (OTP) and verify the code.",
-      image: "../public/Image/otppicture.png",
-      link: "../src/WEB/HTML/otp.html"
+      image: "/public/Image/otppicture.png",
+      link: "/public/WEB/HTML/otp.html"
     },
   ];
 
@@ -306,7 +306,7 @@ function App() {
         >
       
             <img 
-                src="../public/Image/meee.jpg" 
+                src="/public/Image/meee.jpg" 
                 alt="Dipisha Dumre" 
                 className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full shadow-lg"
             /> 
