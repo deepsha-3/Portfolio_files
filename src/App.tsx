@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, Moon, Sun, Camera, Instagram, MailCheck } from 'lucide-react';
+import { Github, Mail, ExternalLink, Code2, Briefcase, Moon, Sun, Camera, Instagram } from 'lucide-react';
 // import {ChevronLeft, ChevronRight} from 'lucide-react';
 // import Typed from 'typed.js'
 
